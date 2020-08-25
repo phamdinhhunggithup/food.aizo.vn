@@ -1,0 +1,43 @@
+/* ========== // BACKGROUND CONFIG // ========== */
+::selection {
+	background: #333333;
+	color: #ffffff;
+}
+
+::-moz-selection {
+	background: #333333;
+	color: #ffffff;
+}
+
+::-webkit-selection {
+	background: #333333;
+	color: #ffffff;
+}
+/* ========== // FONT TEXT // ========== */
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url(../font-family/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../font-family/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: url(../font-family/Montserrat-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../font-family/Montserrat-Regular.ttf);
+}
+/* ========== // BODY // ========== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat-Regular";
+    font-size: 1rem;
+    line-height: 1.2;
+}
